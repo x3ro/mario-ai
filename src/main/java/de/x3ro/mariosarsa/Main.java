@@ -30,8 +30,7 @@ public final class Main {
         final String argsString = "-vis on -zm 0 -vw 640 -vh 480";
         final MarioAIOptions marioAIOptions = new MarioAIOptions(args);
         marioAIOptions.setFPS(100);
-        marioAIOptions.setViewWidth(640);
-        marioAIOptions.setViewHeight(480);
+        marioAIOptions.setScale2X(true);
         //marioAIOptions.setEnemies("off");
 
 
