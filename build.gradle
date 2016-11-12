@@ -1,4 +1,7 @@
 apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'de.x3ro.mariosarsa.Main'
 
 repositories {
     jcenter()
@@ -12,5 +15,4 @@ dependencies {
     // did not separate test sources from main sources, they're currently always used
     compile 'junit:junit:4.12'
     compile 'org.testng:testng:6.9.12'
-
 }
