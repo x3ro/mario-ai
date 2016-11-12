@@ -57,22 +57,22 @@ public static void init(GraphicsConfiguration gc)
 {
     try
     {
-        mario = cutImage(gc, "resources/mariosheet.png", 32, 32);
-        racoonmario = cutImage(gc, "resources/racoonmariosheet.png", 32, 32);
-        smallMario = cutImage(gc, "resources/smallmariosheet.png", 16, 16);
-        fireMario = cutImage(gc, "resources/firemariosheet.png", 32, 32);
-        enemies = cutImage(gc, "resources/enemysheet.png", 16, 32);
-        items = cutImage(gc, "resources/itemsheet.png", 16, 16);
-        level = cutImage(gc, "resources/mapsheet.png", 16, 16);
-//            map = cutImage(gc, "resources/worldmap.png", 16, 16);
-        particles = cutImage(gc, "resources/particlesheet.png", 8, 8);
-        bg = cutImage(gc, "resources/bgsheet.png", 32, 32);
-//            logo = getImage(gc, "resources/logo.gif");
-//            titleScreen = getImage(gc, "resources/title.gif");
-        font = cutImage(gc, "resources/font.gif", 8, 8);
-        princess = cutImage(gc, "resources/princess.png", 32, 32);
-//            endScene = cutImage(gc, "resources/endscene.gif", 96, 96);
-//            gameOver = cutImage(gc, "resources/gameovergost.gif", 96, 64);
+        mario = cutImage(gc, "/mariosheet.png", 32, 32);
+        racoonmario = cutImage(gc, "/racoonmariosheet.png", 32, 32);
+        smallMario = cutImage(gc, "/smallmariosheet.png", 16, 16);
+        fireMario = cutImage(gc, "/firemariosheet.png", 32, 32);
+        enemies = cutImage(gc, "/enemysheet.png", 16, 32);
+        items = cutImage(gc, "/itemsheet.png", 16, 16);
+        level = cutImage(gc, "/mapsheet.png", 16, 16);
+//            map = cutImage(gc, "/worldmap.png", 16, 16);
+        particles = cutImage(gc, "/particlesheet.png", 8, 8);
+        bg = cutImage(gc, "/bgsheet.png", 32, 32);
+//            logo = getImage(gc, "/logo.gif");
+//            titleScreen = getImage(gc, "/title.gif");
+        font = cutImage(gc, "/font.gif", 8, 8);
+        princess = cutImage(gc, "/princess.png", 32, 32);
+//            endScene = cutImage(gc, "/endscene.gif", 96, 96);
+//            gameOver = cutImage(gc, "/gameovergost.gif", 96, 64);
     }
     catch (Exception e)
     {

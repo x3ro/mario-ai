@@ -107,7 +107,7 @@ public LevelScene()
     {
 //            System.out.println("Java::LevelScene: loading tiles.dat...");
 //            System.out.println("LS: System.getProperty(\"user.dir()\") = " + System.getProperty("user.dir"));
-        Level.loadBehaviors(new DataInputStream(LevelScene.class.getResourceAsStream("resources/tiles.dat")));
+        Level.loadBehaviors(new DataInputStream(LevelScene.class.getResourceAsStream("/tiles.dat")));
     } catch (IOException e)
     {
         System.err.println("[MarioAI ERROR] : error loading file resources/tiles.dat ; ensure this file exists in ch/idsia/benchmark/mario/engine ");
