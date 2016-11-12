@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.jdom:jdom:1.1.3'
+    compile 'org.ow2.asm:asm-all:5.1'
+
+    // These should be "testCompile" dependencies, but since the original marioai source
+    // did not separate test sources from main sources, they're currently always used
+    compile 'junit:junit:4.12'
+    compile 'org.testng:testng:6.9.12'
+
+}
